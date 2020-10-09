@@ -1,0 +1,59 @@
+.outercard{
+    width:45%;
+    background-color: white;
+    -webkit-clip-path: circle(66.1% at 0 50%);
+    clip-path: circle(66.1% at 0 50%);
+    height: 100vh;
+    float: left;
+    margin: 0px;
+}
+
+body{
+    /* background-color:rgb(18, 18, 90); */
+    /* background-color: #464a5f; */
+    background-color: #18314f;
+    height: 100vh;
+}
+
+#profileimg{
+    height:200px;
+    width:200px;
+}
+.btncolor{
+    background-color: #18314f;
+}
+.outercontent{
+    width: 50%;
+    height:650px;
+    float: left;
+    position: relative;
+    overflow-y: hidden;
+}
+.translatey{
+    transition: transform 0.6s ease;
+}
+.mycard{
+    text-align: center;
+    width: 60%;
+    margin-top: 25%;
+}
+hr{
+    width: 50%;
+}
+.contentcard{
+    margin-top: 13%;
+    width: 95%;
+    height:100vh;
+    background-color: white;
+    overflow-y: scroll; 
+
+}
+th{
+    text-align: center;
+}
+td{
+    text-align: center;
+}
+
+
+

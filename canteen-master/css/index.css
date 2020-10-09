@@ -1,0 +1,97 @@
+body{
+    background-image: url("../images/backg.jpg");
+}
+#logo{
+    height: 180px;
+    width: 300px;
+    margin-left: 20%;
+}
+.big{
+    margin-left:48%; 
+    margin-top:25%;
+}
+.mycenter{
+    margin-left: 39%;
+}
+.column1{
+    float:left;
+    width: 50%;
+    padding-top:0%;
+    margin: auto;
+    text-align: left;
+  }
+#loginimg{
+    width: 500px;
+    
+}
+#test1 > div.row > form > input:hover{
+    background-color: rgb(91, 47, 161);
+    color:black;
+    font-weight: 600;
+}
+.btncolor{
+    background-color: #000000;
+    border-radius: 5px;
+    color: white;
+}
+#section1 > div > div.column1 > div >p{
+    padding-left: 100px;
+}
+.btncolor{
+    transition: transform .2s;
+}
+.btncolor:hover{
+    transform: scale(1.1);
+    background-color: rgb(91, 47, 161);
+    color: black;
+    font-weight: 600;
+    border: 1px solid black;
+   
+
+}
+h1{
+    font-size: 40px;
+}
+.content2{
+    padding-top: 0%;
+}
+#mysection{
+    transition: transform 0.6s ease;
+}
+.card{
+    height:380px;
+}
+.column2{
+    float:left;
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    padding-left: 20px;
+    
+  }
+    
+  .myrow{
+   margin: 0 -5px;
+   
+  }
+  .myrow:after{
+    content: "";
+    display:table;
+    clear: both;
+  }
+.mycontainer{
+    padding: 3%;
+    margin: auto;
+    margin-top:5%; 
+    width:80%;
+    background-color:white;
+    height:550px;
+    overflow-y: hidden;
+    border-radius: 20px;
+    overflow-x: hidden;
+    margin-bottom: 3%;
+}
+img{
+    height:500px;
+    width: 600px;
+}
